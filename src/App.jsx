@@ -63,20 +63,37 @@ function App() {
               </article>*/}
             </main>
             <footer>
-                <Tile variant="tekstTegel" tileHeading="The brand" tileParagraf="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda commodi quisquam repellendus saepe! Accusantium consequatur dolorum eaque eligendi, error iste nam nemo."/>
+                {/*Opdracht 2 tegels*/}
+                <Tile variant="tekstTegel" tileHeading="The brand">
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Alias assumenda commodi quisquam repellendus saepe! Accusantium consequatur
+                        dolorum eaque eligendi, error iste nam nemo.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Alias assumenda commodi quisquam repellendus saepe! Accusantium consequatur
+                        dolorum eaque eligendi, error iste nam nemo.
+                    </p>
+                </Tile>
                 <Tile variant="imgTegel" tileImg={brand} tileImgAlt="Our brand"/>
                 <Tile variant="imgTegel" tileImg={ourStory} tileImgAlt="Our story"/>
-                <Tile variant="Tekst-tegel" tileHeading="The brand" tileParagraf="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda commodi quisquam repellendus saepe! Accusantium consequatur dolorum eaque eligendi, error iste nam nemo."/>
+                <Tile variant="tekstTegel" tileHeading="Our story">
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Alias assumenda commodi quisquam repellendus saepe! Accusantium consequatur
+                        dolorum eaque eligendi, error iste nam nemo.
+                    </p>
+                </Tile>
 
                 {/*opdracht 1 tegels
                 <section>
                     <h2>The brand</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda commodi quisquam
-                        repellendus saepe! Accusantium consequatur dolorum eaque eligendi, error iste nam nemo. </p>
                     <p>
-                        nisi pariatur porro, quam ratione tenetur veritatis voluptas voluptatum. A aliquam consectetur
-                        dicta dolor ex fuga fugit iste magni quaerat, quos repellat saepe ullam voluptatum. Quia,
-                        sequi.</p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda commodi quisquam
+                    repellendus saepe! Accusantium consequatur dolorum eaque eligendi, error iste nam nemo.
+                    </p>
+                    <p>
+                     nisi pariatur porro, quam ratione tenetur veritatis voluptas voluptatum. A aliquam consectetur
+                     dicta dolor ex fuga fugit iste magni quaerat, quos repellat saepe ullam voluptatum. Quia, sequi.
+                     </p>
                 </section>
                 <section>
                     <img src={brand} alt="our brand"/>
@@ -86,10 +103,12 @@ function App() {
                 </section>
                 <section>
                     <h2>Our story</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores consequuntur cumque
-                        dolorem doloribus earum eius error et exercitationem explicabo iure, libero maiores maxime,
-                        minima nam, natus nesciunt nulla obcaecati quas quasi quod repellat sed sequi vero voluptatibus.
-                        Aliquam animi cupiditate neque nisi odit qui ratione, temporibus vel velit voluptatem?</p>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores consequuntur cumque
+                    dolorem doloribus earum eius error et exercitationem explicabo iure, libero maiores maxime,
+                    minima nam, natus nesciunt nulla obcaecati quas quasi quod repellat sed sequi vero voluptatibus.
+                    Aliquam animi cupiditate neque nisi odit qui ratione, temporibus vel velit voluptatem?
+                    </p>
                 </section>*/}
             </footer>
         </>

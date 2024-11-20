@@ -1,25 +1,19 @@
-function Tile({variant, tileHeading, tileParagraf, tileImg, tileImgAlt}) {
-    if (variant === 'tekstTegel') {
+function Tile({variant, tileHeading, tileImg, tileImgAlt, children}) {
 
+    function TileContent() {
+        if (variant === 'imgTegel') {
+            return <img src={tileImg} alt={tileImgAlt}/>
+        } else return <>
+            <h2>{tileHeading}</h2>
+            {children}
+        </>
     }
-    else if (variant === 'imgTegel'){
 
-    }
     return (
-
-
-            <section>
-                <h2>{tileHeading}</h2>
-                <p>{tileParagraf}</p>
-            </section>
-
-            <section>
-                <img src={tileImg} alt={tileImgAlt}/>
-            </section>
-
-
-    )
-        ;
+        <section>
+            {TileContent()}
+        </section>
+    );
 }
 
 export default Tile;
